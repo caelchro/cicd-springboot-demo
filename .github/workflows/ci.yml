@@ -28,3 +28,9 @@ jobs:
 
       - name: Run tests
         run: ./mvnw test
+
+      - name: Build application
+        run: ./mvnw clean package
+
+      - name: List generated files
+        run: ls -la target/
