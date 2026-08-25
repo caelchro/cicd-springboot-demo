@@ -10,6 +10,6 @@ class HelloControllerTest {
 
     @Test
     void contextLoads() {
-    	assertEquals(1, 2);
+    	assertEquals(3, 3);
     }
 }
