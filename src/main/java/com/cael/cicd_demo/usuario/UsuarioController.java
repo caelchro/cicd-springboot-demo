@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class UsuarioController {
 	IUsuarioService service;
 
-	public UsuarioController(UsuarioService service) {
+	public UsuarioController(IUsuarioService service) {
 		this.service = service;
 	}
 
